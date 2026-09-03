@@ -7,6 +7,12 @@
 
 仓库只发布代码，不包含原始 AIS 数据、模型输出或 IHO 海洋区域边界数据。请确保你有权使用输入数据，并根据数据来源要求进行引用和合规处理。
 
+## 模型结构
+
+![GAMM 与 LightGBM 模型结构](figures/fig4_1_gamm_lightgbm_structure_editable_20260901_01.png)
+
+图示展示了 GAMM 风格控制模型与 LightGBM 模型的整体结构和结果对比流程。
+
 ## 方法概览
 
 脚本默认使用 `acq_time` 做时间排序切分，使用 `speed_loss_rate` 生成 5 个等级：
@@ -87,6 +93,8 @@ python3 gamm_allvars_speed_loss_grade_multiyear.py \
 .
 ├── gamm_allvars_speed_loss_grade_multiyear.py
 ├── lightgbm_allvars_speed_loss_grade_multiyear.py
+├── figures/
+│   └── fig4_1_gamm_lightgbm_structure_editable_20260901_01.png
 ├── requirements.txt
 └── README.md
 ```
