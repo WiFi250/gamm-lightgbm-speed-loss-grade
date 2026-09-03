@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+._*
+
+# Local data, shapefiles, trained models, and generated outputs.
+*.csv
+*.parquet
+*.pkl
+*.model
+IHO_marine_regions_58N/
+speed_loss_grade_multiyear_outputs/
+gamm_speed_loss_grade_outputs/
+outputs/
