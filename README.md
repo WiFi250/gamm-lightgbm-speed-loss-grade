@@ -98,3 +98,9 @@ python3 gamm_allvars_speed_loss_grade_multiyear.py \
 ├── requirements.txt
 └── README.md
 ```
+
+## 49-feature version (2026-11)
+
+A segment-level (1 h) extension with 49 features and a matched GAMM baseline is available in
+[`v2_49feat/`](v2_49feat/). It reports test-set Accuracy 0.3727 / Macro F1 0.3829 / QWK 0.5160
+for LightGBM, versus 0.3418 / 0.3319 / 0.3978 for the 17-feature record-level model above.
